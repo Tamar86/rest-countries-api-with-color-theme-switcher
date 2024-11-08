@@ -1,0 +1,90 @@
+.form {
+	width: 100%;
+	height: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.form p {
+	margin-left: 1rem;
+	color: red;
+	font-weight: 600;
+}
+
+.inputContainer {
+	max-width: 100%;
+	width: 100%;
+	border: 1px solid transparent;
+	box-shadow: 0 0 10px var(--Dark-gray); /* Apply blurred shadow as border */
+	border-radius: 5px;
+	width: 35%;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 0.8rem 2rem;
+
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+
+.inputContainerDark {
+	max-width: 100%;
+	width: 100%;
+	border: 1px solid transparent;
+	box-shadow: 0 0 10px var(--Very-dark-blue-text); /* Apply blurred shadow as border */
+	border-radius: 5px;
+	width: 35%;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 0.8rem 2rem;
+	background-color: var(--Dark-blue);
+
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+
+.input {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: var(--Dark-gray);
+	background-color: var(--White);
+}
+.input::placeholder {
+	font-weight: 600;
+}
+
+.inputDark {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: var(--White);
+	background-color: var(--Dark-blue);
+}
+
+.inputDark::placeholder {
+	font-weight: 600;
+	color: var(--White);
+}
+
+.icon {
+	color: var(--Dark-gray);
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
+.iconDark {
+	color: var(--White);
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
+.hidden {
+	display: none;
+}
