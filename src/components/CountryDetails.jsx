@@ -17,6 +17,7 @@ function CountryDetails() {
 		async function fetchByCode() {
 			dispatch({ type: 'loading', payload: true });
 			const data = await fetchCountriesByCode(countryCode.countryCode);
+			if (!data) return;
 			const countryData = data[0];
 			dispatch({ type: 'country/detail', payload: countryData });
 			dispatch({ type: 'loading', payload: false });
@@ -65,7 +66,7 @@ function CountryDetails() {
 			<button
 				className={isDarkMode ? styles.btnBackDark : styles.btnBack}
 				onClick={() =>
-					navigate('/rest-countries-api-with-color-theme-switcher')
+					navigate('/rest-countries-api-with-color-theme-switcher/')
 				}
 			>
 				<FontAwesomeIcon icon={faArrowLeftLong} />

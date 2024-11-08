@@ -12,9 +12,10 @@ function Countries() {
 		async function getData() {
 			dispatch({ type: 'loading', payload: true });
 			const data = await fetchAllCountries(countries);
+
+			if (!data) return;
 			dispatch({ type: 'fetch/countries', payload: data });
 			dispatch({ type: 'loading', payload: false });
-			console.log(data);
 		}
 		getData();
 	}, [countries, dispatch]);

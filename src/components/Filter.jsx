@@ -14,8 +14,9 @@ function Filter() {
 
 	async function handleGetByRegion(region) {
 		const data = await fetchCountriesByRegion(region);
+		if (!data) return;
 		dispatch({ type: 'fetch/countries', payload: data });
-		console.log('region', data);
+
 		return data;
 	}
 

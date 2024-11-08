@@ -13,7 +13,7 @@ function Header() {
 	}
 
 	function homePage() {
-		navigation('/rest-countries-api-with-color-theme-switcher');
+		navigation('/rest-countries-api-with-color-theme-switcher/');
 	}
 	return (
 		<div

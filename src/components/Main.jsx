@@ -12,7 +12,7 @@ function Main() {
 		<div className={isDarkMode ? styles.mainDark : styles.main}>
 			<Routes>
 				<Route
-					path='/rest-countries-api-with-color-theme-switcher'
+					path='/rest-countries-api-with-color-theme-switcher/'
 					element={<HomePage />}
 				/>
 				<Route

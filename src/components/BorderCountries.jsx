@@ -27,6 +27,7 @@ function BorderCountries({ code }) {
 		async function fetchByCode() {
 			try {
 				const data = await fetchCountriesByCode(code);
+				if (!data) return;
 				const countryData = data[0];
 				console.log('data', countryData);
 				navigate(
