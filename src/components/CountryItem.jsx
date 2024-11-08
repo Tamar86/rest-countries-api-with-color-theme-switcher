@@ -21,7 +21,9 @@ function CountryItem({ item }) {
 			onClick={handleClick}
 			className={isDarkMode ? styles.countryItemDark : styles.countryItem}
 		>
-			<Link to={`/country/${item.cca3}`}>
+			<Link
+				to={`/rest-countries-api-with-color-theme-switcher/country/${item.cca3}`}
+			>
 				<div className={styles.image}>
 					<img
 						className={isDarkMode ? styles.flagsDark : styles.flags}

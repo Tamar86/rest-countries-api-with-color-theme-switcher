@@ -27,7 +27,7 @@ function Input() {
 		if (data) {
 			dispatch({ type: 'fetch/country', payload: data });
 			dispatch({ type: 'loading', payload: false });
-			navigate(`/country`);
+			navigate(`/rest-countries-api-with-color-theme-switcher/country`);
 
 			console.log('data', data);
 		}

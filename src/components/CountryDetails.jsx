@@ -64,7 +64,9 @@ function CountryDetails() {
 		<div className={styles.countryDetails}>
 			<button
 				className={isDarkMode ? styles.btnBackDark : styles.btnBack}
-				onClick={() => navigate('/')}
+				onClick={() =>
+					navigate('/rest-countries-api-with-color-theme-switcher')
+				}
 			>
 				<FontAwesomeIcon icon={faArrowLeftLong} />
 				<span>Back</span>

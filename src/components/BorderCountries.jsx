@@ -29,7 +29,9 @@ function BorderCountries({ code }) {
 				const data = await fetchCountriesByCode(code);
 				const countryData = data[0];
 				console.log('data', countryData);
-				navigate(`/country/${countryData.cca3}`);
+				navigate(
+					`/rest-countries-api-with-color-theme-switcher/country/${countryData.cca3}`
+				);
 			} catch (error) {
 				console.error('Failed to fetch border country:', error);
 			}
