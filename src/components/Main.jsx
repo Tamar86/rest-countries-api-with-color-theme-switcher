@@ -11,9 +11,18 @@ function Main() {
 	return (
 		<div className={isDarkMode ? styles.mainDark : styles.main}>
 			<Routes>
-				<Route path='/' element={<HomePage />} />
-				<Route path='/country/:countryCode' element={<CountryDetails />} />
-				<Route path='/country' element={<Country />} />
+				<Route
+					path='/rest-countries-api-with-color-theme-switcher'
+					element={<HomePage />}
+				/>
+				<Route
+					path='/rest-countries-api-with-color-theme-switcher/country/:countryCode'
+					element={<CountryDetails />}
+				/>
+				<Route
+					path='/rest-countries-api-with-color-theme-switcher/country'
+					element={<Country />}
+				/>
 			</Routes>
 		</div>
 	);
