@@ -1,0 +1,21 @@
+.btnBorders {
+	padding: 2px 10px;
+	border: solid 1px transparent;
+	box-shadow: 0 0 2px var(--Dark-gray);
+	background-color: var(--White);
+	border-radius: 2px;
+	color: var(--Very-dark-blue-text);
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.btnBordersDark {
+	padding: 2px 10px;
+	border: solid 1px transparent;
+	box-shadow: 0 0 2px var(--Very-dark-blue-text);
+	background-color: var(--Dark-blue);
+	border-radius: 2px;
+	color: var(--White);
+	font-weight: 300;
+	cursor: pointer;
+}

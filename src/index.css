@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	/* justify-content: center; */
+	/* padding: 2%; */
+	font-family: 'Nunito Sans', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300; /* 600, 800 */
+	font-style: normal;
+}
+
+:root {
+	--Dark-blue-black: hsl(210, 25%, 2%);
+	/* (Dark Mode Elements) */
+	--Dark-blue: hsl(209, 23%, 22%);
+	/* (Dark Mode Background) */
+	--Very-dark-blue: hsl(207, 26%, 17%);
+	/* (Light Mode Text) */
+	--Very-dark-blue-text: hsl(200, 15%, 8%);
+	/* (Light Mode Input) */
+	--Dark-gray: hsl(0, 0%, 52%);
+	/* (Light Mode Background) */
+	--Very-light-gray: hsl(0, 0%, 98%);
+	--Light-gray: hsl(0, 0%, 88%);
+	/* (Dark Mode Text & Light Mode Elements) */
+	--White: hsl(0, 0%, 100%);
+
+	--Sky-blue: hsl(204, 70%, 53%);
+}
