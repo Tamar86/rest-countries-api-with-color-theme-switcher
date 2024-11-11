@@ -1,9 +1,14 @@
 .form {
-	width: 100%;
+	max-width: 100%;
+	width: 25rem;
 	height: 3rem;
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
+
+	@media (max-width: 767px) {
+		width: 100%;
+	}
 }
 
 .form p {
@@ -13,12 +18,11 @@
 }
 
 .inputContainer {
-	max-width: 100%;
 	width: 100%;
 	border: 1px solid transparent;
 	box-shadow: 0 0 10px var(--Dark-gray); /* Apply blurred shadow as border */
 	border-radius: 5px;
-	width: 35%;
+
 	display: flex;
 	align-items: center;
 	gap: 1rem;

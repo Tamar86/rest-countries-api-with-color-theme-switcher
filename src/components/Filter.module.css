@@ -2,8 +2,8 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	max-width: 100%;
-	width: 16%;
+	max-width: 12rem;
+	width: 100%;
 }
 .regions {
 	position: absolute;

@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Layout from './components/Layout';
 import { CountriesProvider } from './context/CountriesContext';
 
@@ -13,5 +13,3 @@ function App() {
 }
 
 export default App;
-
-//basename='/rest-countries-api-with-color-theme-switcher'
