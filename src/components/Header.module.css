@@ -13,12 +13,16 @@
 	/* position: relative; */
 	padding: 1rem 5rem;
 
-	@media (max-width: 550px) {
+	@media (max-width: 580px) {
 		padding: 1.5rem;
 	}
 }
 
 .headerContainerDark {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -26,20 +30,10 @@
 	color: var(--White);
 	border-bottom: 1px solid transparent;
 	box-shadow: 0 5px 5px var(--Very-dark-blue-text); /* Apply blurred shadow as border */
-	position: relative;
+
 	padding: 1rem 5rem;
-	@media (max-width: 550px) {
+	@media (max-width: 580px) {
 		padding: 1.5rem;
-	}
-}
-
-.heading1 {
-	font-size: 1.5rem;
-	font-weight: 800;
-	cursor: pointer;
-
-	@media (max-width: 550px) {
-		font-size: 1rem;
 	}
 }
 
@@ -49,7 +43,7 @@
 	cursor: pointer;
 	color: var(--White);
 
-	@media (max-width: 550px) {
+	@media (max-width: 580px) {
 		font-size: 1rem;
 	}
 }
@@ -80,29 +74,50 @@
 
 .mode {
 	font-weight: 300;
-	@media (max-width: 550px) {
+	@media (max-width: 580px) {
 		font-size: 0.8rem;
 	}
 }
 
 .modeDark {
-	@media (max-width: 550px) {
+	@media (max-width: 580px) {
 		font-size: 0.8rem;
 	}
 }
 
 .icon {
-	@media (max-width: 550px) {
+	@media (max-width: 580px) {
 		font-size: 0.8rem;
 	}
 }
 .btnHeading {
 	background-color: transparent;
-	border: 2px solid transparent;
+	border: none;
 	border-radius: 1.5rem;
-	padding: 2px 15px;
+	font-size: 1.5rem;
+	font-weight: 800;
+	cursor: pointer;
+	@media (max-width: 580px) {
+		font-size: 1rem;
+	}
 }
 
 .btnHeading:hover {
-	box-shadow: 0 0 1rem var(--Dark-gray);
+	color: var(--Dark-gray);
+}
+
+.btnHeadingDark {
+	background-color: transparent;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: 800;
+	cursor: pointer;
+	color: var(--White);
+	@media (max-width: 580px) {
+		font-size: 1rem;
+	}
+}
+
+.btnHeadingDark:hover {
+	color: var(--Dark-gray);
 }

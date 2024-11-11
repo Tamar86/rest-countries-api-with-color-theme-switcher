@@ -21,13 +21,11 @@ function Header() {
 				isDarkMode ? styles.headerContainerDark : styles.headerContainer
 			}
 		>
-			<button className={styles.btnHeading}>
-				<h1
-					className={isDarkMode ? styles.heading1Dark : styles.heading1}
-					onClick={homePage}
-				>
-					Where in the world?
-				</h1>
+			<button
+				className={isDarkMode ? styles.btnHeadingDark : styles.btnHeading}
+				onClick={homePage}
+			>
+				Where in the world?
 			</button>
 			<button
 				className={isDarkMode ? styles.buttonModeDark : styles.buttonMode}
