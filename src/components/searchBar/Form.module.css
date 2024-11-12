@@ -7,6 +7,7 @@
 	align-items: center;
 	gap: 1rem;
 	padding: 0.8rem 2rem;
+	background-color: var(--White);
 
 	@media (max-width: 767px) {
 		width: 100%;

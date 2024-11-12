@@ -13,11 +13,9 @@ function CountryDetails() {
 	const { countryDetails, dispatch, loading } = useCountries();
 
 	const { countryCode } = useParams();
-	console.log('countryCode', countryCode);
 
 	useEffect(() => {
 		async function fetchByCode() {
-			console.log('countryCode2', countryCode);
 			dispatch({ type: 'loading', payload: true });
 			const data = await fetchCountriesByCode(countryCode);
 			if (!data) return;

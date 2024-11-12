@@ -2,9 +2,14 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 2rem 5rem;
+	padding: 2rem 7.5rem;
 	background-color: var(--Very-light-gray);
 	padding-top: 8rem;
+
+	@media (max-width: 767px) {
+		padding: 1.5rem 5rem;
+		padding-top: 8rem;
+	}
 
 	@media (max-width: 580px) {
 		padding: 1.5rem;
@@ -16,9 +21,14 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 2rem 5rem;
+	padding: 2rem 7.5rem;
 	background-color: var(--Very-dark-blue);
 	padding-top: 8rem;
+
+	@media (max-width: 767px) {
+		padding: 1.5rem 5rem;
+		padding-top: 8rem;
+	}
 
 	@media (max-width: 580px) {
 		padding: 1.5rem;

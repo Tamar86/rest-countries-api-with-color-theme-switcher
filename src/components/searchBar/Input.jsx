@@ -7,7 +7,7 @@ function Input({ handleInput }) {
 		<input
 			className={isDarkMode ? styles.inputDark : styles.input}
 			type='text'
-			placeholder='Search for a country'
+			placeholder='Search for a country...'
 			value={country}
 			onChange={e => handleInput(e.target.value)}
 		/>

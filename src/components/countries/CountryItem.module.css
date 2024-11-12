@@ -6,6 +6,11 @@
 	box-shadow: 0 0 1px var(--Dark-gray);
 	text-decoration: none;
 	color: var(--Very-dark-blue-text);
+	height: 20rem;
+
+	@media (max-width: 767px) {
+		height: 25rem;
+	}
 }
 
 .countryItemDark {
@@ -16,6 +21,10 @@
 	box-shadow: 0 0 1px var(--Very-dark-blue-text);
 	text-decoration: none;
 	color: var(--White);
+	height: 20rem;
+	@media (max-width: 767px) {
+		height: 25rem;
+	}
 }
 
 .countryItem a {

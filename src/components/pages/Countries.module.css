@@ -1,15 +1,9 @@
 .countries {
 	display: grid;
-	grid-template-columns: 20% 20% 20% 20%;
+	grid-template-columns: 21% 21% 21% 21%;
 	align-items: center;
-	justify-content: center;
-	column-gap: 6.7%;
-	row-gap: 5rem;
-
-	@media (max-width: 1300px) {
-		grid-template-columns: 23% 23% 23% 23%;
-		column-gap: 3%;
-	}
+	justify-content: space-between;
+	row-gap: 4rem;
 
 	@media (max-width: 1024px) {
 		grid-template-columns: 40% 40%;
