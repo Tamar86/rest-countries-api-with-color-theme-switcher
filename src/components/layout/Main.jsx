@@ -1,22 +1,21 @@
-import { Route, Routes } from 'react-router-dom';
 import styles from './Main.module.css';
+import { Route, Routes } from 'react-router-dom';
+import { useCountries } from '../../context/CountriesContext';
 import HomePage from './HomePage';
-import CountryDetails from './CountryDetails';
-
-import Country from './Country';
-import { useCountries } from '../context/CountriesContext';
+import CountryDetails from '../countries/CountryDetails';
+import Country from '../countries/Country';
 
 function Main() {
 	const { isDarkMode } = useCountries();
 
 	return (
-		<div className={isDarkMode ? styles.mainDark : styles.main}>
+		<main className={isDarkMode ? styles.mainDark : styles.main}>
 			<Routes>
 				<Route path='/' element={<HomePage />} />
 				<Route path='/country/:countryCode' element={<CountryDetails />} />
 				<Route path='/country' element={<Country />} />
 			</Routes>
-		</div>
+		</main>
 	);
 }
 

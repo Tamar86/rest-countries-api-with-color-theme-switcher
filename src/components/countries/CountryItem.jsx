@@ -1,7 +1,7 @@
 import styles from './CountryItem.module.css';
 import { Link } from 'react-router-dom';
-import { useCountries } from '../context/CountriesContext';
-import { formatNumber } from '../services/formatNumber';
+import { useCountries } from '../../context/CountriesContext';
+import { formatNumber } from '../../services/formatNumber';
 
 function CountryItem({ item }) {
 	const { dispatch, isDarkMode } = useCountries();
@@ -26,6 +26,7 @@ function CountryItem({ item }) {
 					<img
 						className={isDarkMode ? styles.flagsDark : styles.flags}
 						src={item.flags.png}
+						alt={`${item.name.common}'s flag`}
 					/>
 				</div>
 				<div className={styles.listContainer}>

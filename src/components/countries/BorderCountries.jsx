@@ -1,7 +1,7 @@
 import styles from './BorderCountries.module.css';
 import { useEffect, useState } from 'react';
-import { fetchCountriesByCode } from '../services/countriesApi';
-import { useCountries } from '../context/CountriesContext';
+import { fetchCountriesByCode } from '../../services/countriesApi';
+import { useCountries } from '../../context/CountriesContext';
 import { useNavigate } from 'react-router-dom';
 
 function BorderCountries({ code }) {

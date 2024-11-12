@@ -1,5 +1,5 @@
 import styles from './Layout.module.css';
-import Header from './Header';
+import Header from '../header/Header';
 import Main from './Main';
 
 function Layout() {

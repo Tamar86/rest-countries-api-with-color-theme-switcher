@@ -1,9 +1,9 @@
 import styles from './Country.module.css';
-import { useCountries } from '../context/CountriesContext';
-import CountryItem from './CountryItem';
-import Loader from './Loader';
 import { useEffect } from 'react';
-import { fetchCountriesByName } from '../services/countriesApi';
+import { useCountries } from '../../context/CountriesContext';
+import { fetchCountriesByName } from '../../services/countriesApi';
+import CountryItem from './CountryItem';
+import Loader from '../Loader';
 
 function Country() {
 	const { countryData, loading, dispatch, country } = useCountries();

@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
-import { useCountries } from '../context/CountriesContext';
-import { fetchCountriesByCode } from '../services/countriesApi';
-import Loader from './Loader';
+import { useCountries } from '../../context/CountriesContext';
+import { fetchCountriesByCode } from '../../services/countriesApi';
+import Loader from '../Loader';
 import BorderCountries from './BorderCountries';
 
 function CountryDetails() {
@@ -72,6 +72,7 @@ function CountryDetails() {
 					<img
 						className={isDarkMode ? styles.flagDark : styles.flag}
 						src={countryDetails.flags.png}
+						alt={`${countryDetails.name.common}'s flag`}
 					/>
 				</div>
 				<div className={styles.detailsContainer}>

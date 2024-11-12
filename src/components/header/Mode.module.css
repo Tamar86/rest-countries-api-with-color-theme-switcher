@@ -1,0 +1,35 @@
+.lightMode {
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+	padding: 0.5rem;
+	border: none;
+	background: transparent;
+	color: var(--Very-dark-blue-text);
+}
+
+.darkMode {
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+	padding: 0.5rem;
+	border: none;
+	background: transparent;
+	color: var(--White);
+}
+.icon {
+	@media (max-width: 580px) {
+		font-size: 0.8rem;
+	}
+}
+
+.mode {
+	font-weight: 600;
+	@media (max-width: 580px) {
+		font-size: 0.8rem;
+	}
+}

@@ -1,0 +1,31 @@
+.headingLight {
+	background-color: transparent;
+	border: none;
+	border-radius: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 800;
+	cursor: pointer;
+	@media (max-width: 580px) {
+		font-size: 1rem;
+	}
+}
+
+.headingLight:hover {
+	color: var(--Dark-gray);
+}
+
+.headingDark {
+	background-color: transparent;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: 800;
+	cursor: pointer;
+	color: var(--White);
+	@media (max-width: 580px) {
+		font-size: 1rem;
+	}
+}
+
+.headingDark:hover {
+	color: var(--Dark-gray);
+}

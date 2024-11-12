@@ -1,0 +1,23 @@
+.input {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: var(--Dark-gray);
+	background-color: var(--White);
+}
+.input::placeholder {
+	font-weight: 600;
+}
+
+.inputDark {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: var(--White);
+	background-color: var(--Dark-blue);
+}
+
+.inputDark::placeholder {
+	font-weight: 600;
+	color: var(--White);
+}

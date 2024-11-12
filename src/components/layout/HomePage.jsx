@@ -1,12 +1,12 @@
-import Countries from './Countries';
-import Filter from './Filter';
 import styles from './HomePage.module.css';
-import Input from './Input';
+import Countries from '../countries/Countries';
+import Filter from '../Filter';
+import FormWrapper from '../searchBar/FormWrapper';
 function HomePage() {
 	return (
 		<div className={styles.homePage}>
 			<div className={styles.container}>
-				<Input />
+				<FormWrapper />
 				<Filter />
 			</div>
 			<div className={styles.countries}>
