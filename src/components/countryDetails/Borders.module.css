@@ -1,0 +1,25 @@
+.bordersContainer {
+	display: flex;
+	align-items: baseline;
+	gap: 1rem;
+	margin-top: 1rem;
+	@media (max-width: 767px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+.borderCountries {
+	color: var(--Very-dark-blue-text);
+	font-weight: 800;
+}
+
+.borderCountriesDark {
+	color: var(--White);
+	font-weight: 800;
+}
+
+.btnBorders {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5px;
+}

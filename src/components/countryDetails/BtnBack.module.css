@@ -1,0 +1,32 @@
+.btnBack {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem 1.5rem;
+	border-radius: 5px;
+	color: var(--Very-dark-blue-text);
+	background-color: var(--White);
+	border: 1px solid transparent;
+	box-shadow: 0 0 2px var(--Dark-gray);
+	cursor: pointer;
+}
+
+.btnBackDark {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem 1.5rem;
+	border-radius: 5px;
+	color: var(--White);
+	background-color: var(--Dark-blue);
+	border: 1px solid transparent;
+	box-shadow: 0 0 2px var(--Very-dark-blue-text);
+	cursor: pointer;
+}
+
+.btnBackDark:hover {
+	background-color: var(--Very-dark-blue-text);
+}
+.btnBack:hover {
+	background-color: var(--Light-gray);
+}

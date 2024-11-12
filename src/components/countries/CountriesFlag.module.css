@@ -1,0 +1,28 @@
+.image {
+	width: 100%;
+	height: 150px;
+
+	@media (max-width: 767px) {
+		height: auto;
+	}
+}
+
+.flags {
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: solid 1px transparent;
+	box-shadow: 0 0 1px var(--Dark-gray);
+}
+
+.flagsDark {
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: solid 1px transparent;
+	box-shadow: 0 0 1px var(--Very-dark-blue-text);
+}

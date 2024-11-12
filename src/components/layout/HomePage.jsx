@@ -1,5 +1,5 @@
 import styles from './HomePage.module.css';
-import Countries from '../countries/Countries';
+import Countries from '../pages/Countries';
 import Filter from '../Filter';
 import FormWrapper from '../searchBar/FormWrapper';
 function HomePage() {

@@ -2,7 +2,7 @@ import styles from './Countries.module.css';
 import { useEffect } from 'react';
 import { useCountries } from '../../context/CountriesContext';
 import { fetchAllCountries } from '../../services/countriesApi';
-import CountryItem from './CountryItem';
+import CountryItem from '../countries/CountryItem';
 import Loader from '../Loader';
 
 function Countries() {

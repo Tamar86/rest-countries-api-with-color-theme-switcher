@@ -2,8 +2,8 @@ import styles from './Main.module.css';
 import { Route, Routes } from 'react-router-dom';
 import { useCountries } from '../../context/CountriesContext';
 import HomePage from './HomePage';
-import CountryDetails from '../countries/CountryDetails';
-import Country from '../countries/Country';
+import CountryDetails from '../pages/CountryDetails';
+import Country from '../pages/Country';
 
 function Main() {
 	const { isDarkMode } = useCountries();
