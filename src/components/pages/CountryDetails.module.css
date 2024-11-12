@@ -1,15 +1,13 @@
 .countryDetails {
 	max-width: 100%;
 	width: 100%;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: baseline;
-	gap: 2rem;
 	padding: 1rem 0;
 
 	@media (max-width: 1024px) {
-		height: 100%;
+		gap: 2rem;
 	}
 }
 
