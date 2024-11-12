@@ -10,6 +10,7 @@ function Heading() {
 	}
 	return (
 		<h1
+			tabIndex='0'
 			className={isDarkMode ? styles.headingDark : styles.headingLight}
 			onClick={homePage}
 		>

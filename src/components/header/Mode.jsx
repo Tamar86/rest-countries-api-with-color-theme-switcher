@@ -7,6 +7,7 @@ function Mode({ handleMode }) {
 	const { isDarkMode } = useCountries();
 	return (
 		<div
+			tabIndex='0'
 			className={isDarkMode ? styles.darkMode : styles.lightMode}
 			onClick={handleMode}
 		>
