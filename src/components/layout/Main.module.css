@@ -4,7 +4,7 @@
 	flex-direction: column;
 	padding: 2rem 5rem;
 	background-color: var(--Very-light-gray);
-	padding-top: 7rem;
+	padding-top: 8rem;
 
 	@media (max-width: 580px) {
 		padding: 1.5rem;
@@ -18,7 +18,7 @@
 	flex-direction: column;
 	padding: 2rem 5rem;
 	background-color: var(--Very-dark-blue);
-	padding-top: 7rem;
+	padding-top: 8rem;
 
 	@media (max-width: 580px) {
 		padding: 1.5rem;

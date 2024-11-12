@@ -15,7 +15,7 @@ function Mode({ handleMode }) {
 				{isDarkMode ? (
 					<FontAwesomeIcon icon={faSun} />
 				) : (
-					<FontAwesomeIcon icon={faMoon} transform={{ rotate: -15 }} />
+					<FontAwesomeIcon icon={faMoon} transform={{ rotate: -20 }} />
 				)}
 			</span>
 			<span className={styles.mode}>

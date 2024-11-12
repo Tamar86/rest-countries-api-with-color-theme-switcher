@@ -1,6 +1,6 @@
 import styles from './HomePage.module.css';
 import Countries from '../pages/Countries';
-import Filter from '../Filter';
+import Filter from '../Filter/Filter';
 import FormWrapper from '../searchBar/FormWrapper';
 function HomePage() {
 	return (

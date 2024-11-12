@@ -1,0 +1,58 @@
+.regionsDropDownContainerLight {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	padding: 1rem;
+	border: solid 1px transparent;
+	box-shadow: 0 0 2px var(--Dark-gray);
+	top: 105%;
+	width: 100%;
+	background-color: var(--White);
+	border-radius: 5px;
+}
+
+.regionsDropDownContainerDark {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	padding: 1rem;
+	border: solid 1px transparent;
+	box-shadow: 0 0 2px var(--Very-dark-blue-text);
+	top: 105%;
+	width: 100%;
+	background-color: var(--Dark-blue);
+	border-radius: 5px;
+}
+.regionsDropDownContainerLight button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: var(--Dark-gray);
+	font-weight: 600;
+	padding: 5px 10px;
+	text-align: start;
+	border-radius: 2px;
+}
+
+.regionsDropDownContainerLight button:hover {
+	background-color: var(--Light-gray);
+}
+
+.regionsDropDownContainerDark button:hover {
+	background-color: var(--Very-dark-blue-text);
+}
+
+.regionsDropDownContainerDark button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	background-color: var(--Dark-blue);
+	color: var(--White);
+	font-weight: 600;
+	padding: 5px 10px;
+}
+.regionsHidden {
+	display: none;
+}

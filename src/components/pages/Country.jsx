@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useCountries } from '../../context/CountriesContext';
 import { fetchCountriesByName } from '../../services/countriesApi';
 import CountryItem from '../countries/CountryItem';
-import Loader from '../Loader';
+import Loader from '../ui/Loader';
 
 function Country() {
 	const { countryData, loading, dispatch, country } = useCountries();

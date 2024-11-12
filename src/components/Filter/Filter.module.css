@@ -1,0 +1,7 @@
+.filterContainer {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	max-width: 12rem;
+	width: 100%;
+}

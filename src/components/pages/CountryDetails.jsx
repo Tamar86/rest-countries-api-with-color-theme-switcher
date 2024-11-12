@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 
 import { useCountries } from '../../context/CountriesContext';
 import { fetchCountriesByCode } from '../../services/countriesApi';
-import Loader from '../Loader';
+import Loader from '../ui/Loader';
 
 import BtnBack from '../countryDetails/btnBack';
 import Details from '../countryDetails/Details';

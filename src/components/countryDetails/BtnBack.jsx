@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 import { useCountries } from '../../context/CountriesContext';
-import Button from '../Button';
+import Button from '../ui/Button';
 import styles from './btnBack.module.css';
 function BtnBack() {
 	const navigate = useNavigate();

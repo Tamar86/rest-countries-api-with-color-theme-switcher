@@ -1,0 +1,32 @@
+.buttonFilter {
+	position: relative;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	border: solid 1px transparent;
+	box-shadow: 0 0 2px var(--Dark-gray);
+	padding: 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	color: var(--Dark-gray);
+	font-weight: 600;
+}
+
+.buttonFilterDark {
+	position: relative;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	border: solid 1px transparent;
+	box-shadow: 0 0 2px var(--Very-dark-blue-text);
+	padding: 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: var(--Dark-blue);
+	color: var(--White);
+	font-weight: 600;
+}
